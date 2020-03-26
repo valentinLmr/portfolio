@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavigationItems from './NavigationItems/NavigationItems';
-import Logo from '../Logo/Logo'
+import Logo from './Logo/Logo'
 import styles from './Navbar.module.css';
 
 class Navbar extends Component {
