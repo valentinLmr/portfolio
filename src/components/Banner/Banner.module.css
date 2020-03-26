@@ -1,0 +1,38 @@
+.Banner {
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+.Banner img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+@media (max-width: 600px) {
+    .Banner{
+        height: 200px;
+        margin-top: 56px;
+
+    }
+    .Banner img {
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    .Banner{
+        height: 100vh;
+
+    }
+    .Banner img {
+        height: 100%;
+        width: 100%;
+        
+    }
+}
