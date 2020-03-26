@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
-import './App.css';
+import Formation from './components/Formations/Formations'
 
 class App extends Component {
   render () {
@@ -9,6 +9,7 @@ class App extends Component {
       <div>
         <Navbar/>
         <Banner/>
+        <Formation/>
       </div>
     )
   }
