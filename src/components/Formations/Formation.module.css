@@ -7,3 +7,19 @@
     margin: auto;
     justify-content: space-evenly;
 }
+
+.Description {
+    color: #cccc;
+    text-align: justify;;
+    width: 75%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.Actif{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Year:hover{
+    cursor: pointer;
+}
