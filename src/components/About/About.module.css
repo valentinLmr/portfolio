@@ -1,0 +1,41 @@
+.About {
+    padding: 30px 0;
+    color: white;
+    background-color: #315935;
+    text-align: center;
+    font-size: 32px;
+    box-sizing: border-box;
+}
+.About h2 {
+    margin: 0;
+}
+
+.AboutPhoto {
+    width: 25%;
+    text-align: center;
+}
+
+.AboutPhoto img{
+    width: 190px;
+    height: 190px;
+    border-radius: 5%;
+    border: 6px solid white;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+
+}
+
+.InsideAbout {
+    text-align: justify;
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+}
+
+
+.AboutText{
+    width: 75%;
+    margin: auto;
+
+}
