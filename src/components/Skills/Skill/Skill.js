@@ -23,6 +23,7 @@ const skill = props => {
           />
         )}
       </ChangingProgressProvider>
+          <p>{props.name}</p>
     </li>
 ) 
         }
