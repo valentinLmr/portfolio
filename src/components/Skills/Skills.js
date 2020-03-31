@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import Skill from './Skill/Skill'
+import React, { Component } from 'react';
+import Skill from './Skill/Skill';
+import style from './Skills.module.css'
 
 class Skills extends Component{
 
@@ -28,10 +29,7 @@ class Skills extends Component{
             },
             Redux:{
                 percentage: 65
-            },
-            Git:{
-                percentage: 80
-            },
+            }
         }
     }
     render () {
@@ -50,15 +48,20 @@ class Skills extends Component{
         }
 
         const skills = skillsArray.map(skill => {
-           return  (        
-              <Skill percentage={skill.percentage}/>
+           return  (   
+
+                        <Skill 
+                        key={skill.name}
+                        percentage={skill.percentage}
+                        name={skill.name}/>
            )
         })
 
             
         return (
-            <div>
-                <ul>
+            <div className={style.SkillComponent}>
+                <h2>Skills</h2>
+                <ul className={style.SkillList}>
                     {skills}
                 </ul>
             </div>

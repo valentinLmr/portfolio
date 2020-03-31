@@ -1,6 +1,17 @@
 .Skill{
     list-style-type: none;
     width: 150px;
-    height: 150px;
     padding: 5px;
+}
+
+
+@media (max-width: 1000px) {
+    .Skill{
+        list-style-type: none;
+        width: 100px;
+        padding: 5px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
 }
