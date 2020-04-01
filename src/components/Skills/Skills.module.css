@@ -1,6 +1,6 @@
 .SkillComponent{
-    width: 100%;
-    height: auto;
+    width: 65%;
+    height: 6vh;
     box-sizing: border-box;
     text-align: center;
 }
@@ -8,18 +8,8 @@
 .SkillList{
     width: 75%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0;
-}
-
-@media (max-width: 700px) {
-    .SkillList{
-        width: 75%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0 auto;
-        padding: 0;
-    }
 }

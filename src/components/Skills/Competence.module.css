@@ -1,0 +1,31 @@
+.ContainerComp{
+    width: 90%;
+    height: 35px;
+    background-color: lightgrey;
+    display: flex;
+    margin: 10px 0 ;
+    color: white;
+}
+
+.NameComp{
+    width: 15%;
+    height: 100%;
+    background-color: #BF0350;
+    text-align: center;
+}
+
+.PercentageComp{
+    width: 80%;
+    height: 100%;
+    background-color:   #DB1967;
+    text-align: center;
+
+}
+
+.RestPercentage{
+    height: 100%;
+    background-color: lightgrey;
+}
+.ContainerComp p {
+    margin: 6px;
+}

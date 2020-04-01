@@ -1,40 +1,37 @@
 import React from 'react'
 import style from './Projet.module.css'
+import budgety from '../../assets/Images/Budgety.png'
+import Forkify from '../../assets/Images/Forkify.png'
+import Mypark from '../../assets/Images/Mypark.png'
+import Sharemyplan from '../../assets/Images/Sharemyplan.png'
 const projets = props => (
 
     <div className={style.ProjetsContainers}>
+        <h2 style={{fontSize:'50px'}}><strong><u>Mes Réalisations</u></strong></h2>
         <div className= {style.Projets}>
-            <div className={style.Projet}>
+
+
+
+            <div className={style.Projet}
+            style={{backgroundImage: `url(${budgety})`, backgroundSize:'cover'}}>
+                <div className={style.Hover}>
+                    <p></p>
+                </div>
+            </div>
+            <div className={style.Projet}
+            style={{backgroundImage: `url(${Forkify})`, backgroundSize:'cover'}}>
+                <div className={style.Hover}>
+                    <p></p>
+                </div>
+            </div>
+            <div className={style.Projet}
+            style={{backgroundImage: `url(${Sharemyplan})`, backgroundSize:'cover'}}>
                 <div className={style.Hover}>
                 <p></p>
                 </div>
             </div>
-            <div className={style.Projet}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}>
+            <div className={style.Projet}
+            style={{backgroundImage: `url(${Mypark})`, backgroundSize:'cover'}}>
                 <div className={style.Hover}>
                 <p></p>
                 </div>
