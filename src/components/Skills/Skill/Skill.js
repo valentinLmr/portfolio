@@ -5,7 +5,7 @@
 // import styles from './Skill.module.css';
 
 import React from 'react';
-import style from '../Competence.module.css'
+import style from './Competence.module.css'
 
 
 
@@ -21,11 +21,11 @@ const skill = props => {
               <div className={style.NameComp}>
                   <p>{props.name}</p>
               </div>
-              <div className={style.PercentageComp} style={styles}>
+              <div className={style.PercentageComp} style={{width:`${percentage}%`}}>
                   
               </div>
-              <div className={style.RestPercentage}>
-              <p><i>{props.percentage}</i></p>
+              <div className={style.RestPercentage} style={{width:`${85 - percentage }%`}}>
+              <p><i>{props.percentage}%</i></p>
               </div>
       
           </div>
