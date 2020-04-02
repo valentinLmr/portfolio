@@ -1,70 +1,48 @@
+
 .AboutContainer{
-    width: 35%;
+    height: 78vh
+}
+
+.DivContainer{
+    display: flex;
+}
+
+.InfosContainer{
+    width: 40%;
     height: 6vh;
     box-sizing: border-box;
     text-align: center;
     margin-top: 10px;
 }
 
-.Abouts{
+.Infos{
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly;
     align-content: center;
+    width: 100%
 }
-.About{
+.Info{
+    width: 20%;
     margin: auto 0;
     height: auto;
 }
 
-@media (max-width: 1000px) {
-    .About{
-        width: 150px;
-        margin: auto 0;
+@media (max-width: 700px) {
+    .AboutContainer{
+        height: auto}
+
+    .InfosContainer{
+        width: 100%;        
         height: auto;
-    } 
-}
-@media (max-width: 800px) {
-    .About{
-        width: 100px;
-        margin: auto 0;
-        height: auto;
+        margin: 0 auto;
+    }
+    
+    .DivContainer{
+        display: block;
     }
 
-    .Infos h2 {
-        font-size: 16px;
-    }
-
-    .Infos p{
-        font-size: 12px;
-    }
-}
-@media (max-width: 700) {
-    .About{
-        width: 70;
-        margin: auto 0;
-        height: auto;
-    }
-    .Infos h2{
-        font-size: 16px ;      
-    }
-
-    .Infos p{
-        font-size: 12px;
-    }
-}
-@media (max-width: 500px) {
-    .About{
-        width: 50px;
-        margin: auto 0;
-        height: auto;
-    }
-
-    .Infos h2{
-        font-size: 16px ; 
-    }
-
-    .Infos p{
-        font-size: 12px;
+    .Info{
+        width: auto;
     }
 }

@@ -1,15 +1,23 @@
 .SkillComponent{
-    width: 65%;
+    width: 60%;
     height: 6vh;
     box-sizing: border-box;
     text-align: center;
 }
 
 .SkillList{
-    width: 75%;
+    width: 85%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 0;
+}
+
+@media (max-width: 700px) {
+    .SkillComponent{
+        width: 100%;        
+        height: auto;
+        margin: 0 auto;
+    }
 }
