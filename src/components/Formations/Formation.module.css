@@ -1,5 +1,5 @@
 .Years{
-    color: #CCCC;
+    color: #1C1F29;
     display: flex;
     text-align: center;
     box-sizing: border-box;
@@ -8,8 +8,12 @@
     justify-content: space-evenly;
 }
 
+.Years h3{
+    font-size: 32px;
+}
+
 .Description {
-    color: #cccc;
+    color: #1C1F29;
     text-align: justify;;
     width: 75%;
     margin: auto;
@@ -17,7 +21,8 @@
 }
 
 .Actif{
-    color: rgba(0, 0, 0, 0.8);
+    color: #DB1867;
+    text-decoration: underline;
 }
 
 .Year:hover{

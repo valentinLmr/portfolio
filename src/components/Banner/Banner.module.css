@@ -2,6 +2,8 @@
     height: 90vh;
     width: 100%;
     box-sizing: border-box;
+    position: sticky;
+    margin-top: 10vh;
 }
 
 .Banner img {

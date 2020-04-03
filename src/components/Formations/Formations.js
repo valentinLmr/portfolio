@@ -100,7 +100,7 @@ class Formation extends Component {
                 return  (
                 formations.actif ? 
                 <div className={styles.Description}>
-                    <h4><strong>{formation.name}</strong> - {formation.place}</h4>
+                    <h3 style={{fontSize: '24px'}}><strong>{formation.name}</strong> - {formation.place}</h3>
                     <p
                     style={{fontSize: '21px'}}>{formation.description}</p>
                 </div> 
@@ -114,8 +114,8 @@ class Formation extends Component {
             <div onClick={this.descriptionDisplayHandler}>
                 <h2 style={{textAlign:'center',
                     margin: '3% 0',
-                    fontSize: '50px'}}>
-                        Formations
+                    fontSize: '50px',
+                    color: '#1C1F29'}}><strong><u>FORMATION</u></strong>
                 </h2>
                 <div 
                 className={styles.Years}>

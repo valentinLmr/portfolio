@@ -10,6 +10,8 @@
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
+    position: fixed;
+    animation: moveDown 0.5s ease-in-out;
 }
 
 .Logo{
@@ -44,3 +46,12 @@
         display: none;
     }
 }
+  
+  @keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }

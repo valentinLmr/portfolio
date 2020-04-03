@@ -6,21 +6,23 @@ import styles from './Navbar.module.css';
 class Navbar extends Component {
     render () {
         return (
-            <header className={styles.Navbar}>
-                <div className={styles.DrawerToggle}>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <div className={styles.Logo}>
-                    <Logo/>
-                </div>
-                <div className={styles.DesktopOnly}>
-                    <NavigationItems/>
-                </div>
-            </header>
+            <nav className={styles.Navbar}>
+            <div className={styles.DrawerToggle}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div className={styles.Logo}>
+                <Logo/>
+            </div>
+            <div className={styles.DesktopOnly}>
+                <NavigationItems/>
+            </div>
+        </nav>
         )
     }
-}
+} 
+           
+
 
 export default Navbar;
