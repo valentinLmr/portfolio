@@ -1,6 +1,6 @@
 import React from 'react'
-import Infos from './Infos'
-import Skills from '../Skills/Skills'
+import Infos from './Infos/Infos'
+import Skills from './Skills/Skills'
 import style from './About.module.css'
 
 

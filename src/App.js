@@ -6,15 +6,20 @@ import Projet from './components/Projets/Projets'
 import About from './components/About/About'
 
 class App extends Component {
+
+  
   render () {
+
+  
+  
     return (
-      <div>
+       
+       <div>
+        <Navbar/>      
         <Banner/>
-        <Navbar/>
         <About/>
         <Projet/>
         <Formation/>
-
       </div>
     )
   }

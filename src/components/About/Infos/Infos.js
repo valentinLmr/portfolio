@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './About.module.css';
-import profil from '../../assets/Images/valou.jpg'
+import styles from './Infos.module.css';
+import profil from '../../../assets/Images/valou.jpg'
 
 const about = () => {
     return (
