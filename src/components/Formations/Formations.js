@@ -73,6 +73,7 @@ class Formation extends Component {
 
         for (let key in this.state.formations){
             formationsArray.push({
+                key: key, 
                 name: key,
                 year: this.state.formations[key].year,
                 place: this.state.formations[key].place,
@@ -85,9 +86,9 @@ class Formation extends Component {
                 const formations = this.state.formations[formation.name]
                return  (
                 <h3 
+                key={formations.year}
                 className={formations.actif ? [styles.Actif, styles.Year].join(' '): styles.Year}
-                onClick={() => this.clickedHandler(formation.name)}
-                key={formation.name}>
+                onClick={() => this.clickedHandler(formation.name)}>
                         {formation.year}
                 </h3>
                )
@@ -99,7 +100,10 @@ class Formation extends Component {
              
                 return  (
                 formations.actif ? 
-                <div className={styles.Description}>
+                <div 
+                key={formations}
+                className={styles.Description}>
+                    
                     <h3 style={{fontSize: '24px'}}><strong>{formation.name}</strong> - {formation.place}</h3>
                     <p
                     style={{fontSize: '21px'}}>{formation.description}</p>

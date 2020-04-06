@@ -11,9 +11,6 @@ import style from './Competence.module.css'
 
 const skill = props => {
     const percentage = props.percentage - 10 ;
-    const styles = {
-        width:`${percentage}`
-    }
     return (
 
 
