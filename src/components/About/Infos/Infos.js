@@ -13,13 +13,13 @@ const about = () => {
                 <div className={styles.Infos}>
                     <div className={styles.Info}>
                         <div className={styles.InfoContainer}>
-                            <i class="fas fa-search"></i>
+                            <i className="fas fa-search"></i>
                         </div>
                         <h4>Curieux</h4>
                     </div>
                     <div className={styles.Info}>
                         <div className={styles.InfoContainer}>
-                            <i class="fas fa-bolt"></i>
+                            <i className="fas fa-bolt"></i>
                         </div>
                         <div className={styles.Info}>
                             <h4>Investit</h4>
@@ -27,7 +27,7 @@ const about = () => {
                     </div>
                     <div className={styles.Info}>
                         <div className={styles.InfoContainer}>
-                            <i class="fas fa-lightbulb"></i>
+                            <i className="fas fa-lightbulb"></i>
                         </div>
                         <div className={styles.Info}>
                             <h4>Creatif</h4>
@@ -35,7 +35,7 @@ const about = () => {
                     </div>
                     <div className={styles.Info}>
                         <div className={styles.InfoContainer}>
-                            <i class="fas fa-briefcase"></i>
+                            <i className="fas fa-briefcase"></i>
                         </div> 
                         <div className={styles.Info}>
                             <h4>Professionel</h4>
@@ -43,7 +43,7 @@ const about = () => {
                     </div>
                     <div className={styles.Info}>
                         <div className={styles.InfoContainer}>
-                            <i class="fas fa-heart"></i>
+                            <i className="fas fa-heart"></i>
                         </div>
                         <div className={styles.Info}>
                             <h4>Passionné</h4>
