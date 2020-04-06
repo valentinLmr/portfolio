@@ -117,7 +117,7 @@ class Formation extends Component {
         return (
             <div onClick={this.descriptionDisplayHandler}>
                 <h2 style={{textAlign:'center',
-                    margin: '3% 0',
+                    margin: '10vh 0',
                     fontSize: '50px',
                     color: '#1C1F29'}}><strong><u>FORMATION</u></strong>
                 </h2>

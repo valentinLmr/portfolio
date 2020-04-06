@@ -8,7 +8,7 @@ const about = () => {
             <div>
                 <img style={{width:'200px', height:'200px', borderRadius:'50%'}}src={profil} alt='profil'/>
                 <div style={{ width:'100%', height: 'auto', margin: '20px auto'}}>
-                    <p style={{fontSize: '24px', justifyContent:'center', color: 'rgb(29, 32, 41)'}}><strong><i>"Hey, je suis Valentin, passionnée de Développement d'App Web et mobile"</i></strong></p>
+                    <p style={{fontSize: '21px', justifyContent:'center', color: 'rgb(29, 32, 41)'}}><strong><i>"Hey, je suis Valentin, passionnée de Développement d'App Web et mobile"</i></strong></p>
                 </div>
                 <div className={styles.Infos}>
                     <div className={styles.Info}>
