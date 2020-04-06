@@ -5,7 +5,6 @@ import Formation from './components/Formations/Formations';
 import Projet from './components/Projets/Projets';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact'
-
 class App extends Component {
 
   

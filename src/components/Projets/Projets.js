@@ -7,7 +7,7 @@ import Sharemyplan from '../../assets/Images/Sharemyplan.png'
 const projets = props => (
 
     <div className={style.ProjetsContainers}>
-        <h2 style={{fontSize:'50px'}}><strong><u>PROJETS</u></strong></h2>
+        <h2 style={{fontSize:'50px', margin: '10vh 0'}}><strong><u>PROJETS</u></strong></h2>
         <div className= {style.Projets}>
 
 
