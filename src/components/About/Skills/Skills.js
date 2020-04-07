@@ -21,7 +21,7 @@ class Skills extends Component{
             CSS:{
                 percentage: 80
             },
-            JavaScript:{
+            JS_ES6:{
                 percentage: 75
             },
             React:{

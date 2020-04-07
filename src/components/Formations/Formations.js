@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import styles from './Formation.module.css'
-
+import styles from './Formation.module.css';
+import pdf from '../../assets/Images/CVDev.pdf';
+import pdfIcon from '../../assets/Images/pdfIcon.png';
 class Formation extends Component {
     state = {
         formations:{
@@ -115,17 +116,22 @@ class Formation extends Component {
 
             
         return (
-            <div onClick={this.descriptionDisplayHandler}>
-                <h2 style={{textAlign:'center',
-                    margin: '10vh 0',
-                    fontSize: '50px',
-                    color: '#1C1F29'}}><strong><u>FORMATION</u></strong>
-                </h2>
-                <div 
-                className={styles.Years}>
-                    {years}
+            <div>
+                <div onClick={this.descriptionDisplayHandler} id="Formation">
+                    <h2 style={{textAlign:'center',
+                        margin: '10vh 0',
+                        fontSize: '50px',
+                        color: '#1C1F29'}}><strong><u>FORMATION</u></strong>
+                    </h2>
+                    <div 
+                    className={styles.Years}>
+                        {years}
+                    </div>
+                    {description}
                 </div>
-                {description}
+                <div className={styles.Pdf} >
+                    <a href={pdf}><img src={pdfIcon} alt='pdf icon' /></a>
+                </div>
             </div>
 
         )
