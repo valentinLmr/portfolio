@@ -41,3 +41,13 @@
 .ListReseau i {
    margin: 0 10px 0 10px
 }
+
+@media (max-width: 900px) {
+    .Contact{
+        display:block;
+    }
+
+    .Contact p {
+        width: 100%;
+    }
+}
