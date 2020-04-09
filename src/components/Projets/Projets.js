@@ -62,7 +62,11 @@ class Projets extends Component {
         return(
 
             <div className={style.ProjetsContainers} id="Projet">
-                <h2 style={{fontSize:'50px', margin: '10vh 0'}}><strong><u>PROJETS</u></strong></h2>
+                <div style={{margin: '9vh 0'}}>
+                    <h2 style={{fontSize:'50px'}}><strong><u>PROJETS</u></strong></h2>
+                    <p style={{fontSize:'12px'}}><i>Clique pour visiter</i></p>
+                </div>
+                
                 <div className= {style.Projets}>
                     {project}
                 </div>
