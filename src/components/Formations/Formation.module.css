@@ -44,3 +44,10 @@
     width: 100px;
     height: 100px
 }
+
+
+@media (max-width: 700px) {
+    .Years h3{
+        font-size: 24px;
+    }
+}
