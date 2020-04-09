@@ -1,47 +1,78 @@
-import React from 'react'
-import style from './Projet.module.css'
+import React, { Component } from 'react'
+import style from './Projets.module.css'
 import budgety from '../../assets/Images/Budgety.png'
-import Forkify from '../../assets/Images/Forkify.png'
-import Mypark from '../../assets/Images/Mypark.png'
-import Sharemyplan from '../../assets/Images/Sharemyplan.png'
-const projets = props => (
+import forkify from '../../assets/Images/Forkify.png'
+import mypark from '../../assets/Images/Mypark.png'
+import sharemyplan from '../../assets/Images/Sharemyplan.png'
+import Project from './Projet/Projet';
+class Projets extends Component {
 
-    <div className={style.ProjetsContainers} id="Projet">
-        <h2 style={{fontSize:'50px', margin: '10vh 0'}}><strong><u>PROJETS</u></strong></h2>
-        <div className= {style.Projets}>
+    state = {
+        projects:{
+            BUDGETY:{
+                img: budgety,
+                url: "https://budgtily.herokuapp.com/",
+                content:"Permet de gérer ton budgets mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses mensuels et check ton bugets mensuels afin d'optimiser tes économies"
+            },
+            FORKIFY:{
+                img: forkify,
+                url: "https://fork-ify.netlify.com/",
+                content:" Site de recette entièrement coder en Javascript ES6. Permet de trouver ses recettes parmis plus de mille d'après le Scrap d'une API. Selectionne, ajoute le nombre de personnes afin d'ajuster les proportions des ingredients"
+            },
+            SHAREMYPLAN:{
+                img: sharemyplan,
+                url: "https://share-my-plan.herokuapp.com/",
+                content:"solution de partage des abonnements afin de réduire le coût des services les plus demandé.(Netflix, Spotify, Canal+, Amazon Prime ..). RoR, HTML, CSS, JS, Ajax, Active Record"
+            },
+            MYPARK:{
+                img: mypark,
+                url: 'https://we-park.herokuapp.com/',
+                content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieur critères (Prix, Espace, Géocalisation)"
+            },
+        }
+    }
+    render() {
 
+        const projectsArray = []
 
+        const projectsState = {
+            ...this.state.projects
+        }
+        
+        for (let key in projectsState){ 
+            projectsArray.push({
+                name: key,
+                image: this.state.projects[key].img,
+                url: this.state.projects[key].url,
+                content: this.state.projects[key].content
+            })
+        }
 
-            <div className={style.Projet}
-            style={{backgroundImage: `url(${budgety})`, backgroundSize:'cover'}}>
-                <div className={style.Hover}>
-                    <p></p>
+        const project = projectsArray.map(project => {
+           return  (   
+            <Project 
+            key={project.name}
+            name={project.name}
+            image={project.image}
+            url={project.url}
+            content={project.content}/>
+           )
+        })
+
+        return(
+
+            <div className={style.ProjetsContainers} id="Projet">
+                <h2 style={{fontSize:'50px', margin: '10vh 0'}}><strong><u>PROJETS</u></strong></h2>
+                <div className= {style.Projets}>
+                    {project}
                 </div>
             </div>
-            <div className={style.Projet}
-            style={{backgroundImage: `url(${Forkify})`, backgroundSize:'cover'}}>
-                <div className={style.Hover}>
-                    <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}
-            style={{backgroundImage: `url(${Sharemyplan})`, backgroundSize:'cover'}}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-            <div className={style.Projet}
-            style={{backgroundImage: `url(${Mypark})`, backgroundSize:'cover'}}>
-                <div className={style.Hover}>
-                <p></p>
-                </div>
-            </div>
-        </div>
-    </div>
-   
-)
+           
+        )
+    }
+} 
 
-export default projets
+export default Projets
 
  // <div class="image_holder">
     //     <a class="portfodivo_link_for_touch" href="https://www.mh-deco.fr/portfolio_page/amenagement-maison-individuelle-en-location-la-jarrie-17/" target="_self">

@@ -14,24 +14,11 @@
     align-content: center;
     width: 100%
 }
-.Info{
-    margin: auto 0;
-    height: auto;
-}
-
-.Info h4{
-    font-size: 12px;
-}
-
 @media (max-width: 700px) {
 
     .InfosContainer{
         width: 100%;        
         height: auto;
         margin: 0 auto;
-    }
-
-    .Info{
-        width: auto;
     }
 }
