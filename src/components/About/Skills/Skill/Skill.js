@@ -10,7 +10,7 @@ import style from './Competence.module.css'
 
 
 const skill = props => {
-    const percentage = props.percentage - 10 ;
+    const percentage = props.percentage - 15 ;
     return (
 
 
@@ -26,25 +26,6 @@ const skill = props => {
               </div>
       
           </div>
-
-
-
-
-
-    // <li className={styles.Skill}>
-    //     <ChangingProgressProvider values={[0, percentage]}>
-    //     {percentage => (
-    //       <CircularProgressbar
-    //         value={percentage}
-    //         text={`${percentage}%`}
-    //         styles={buildStyles({
-    //           pathTransitionDuration: 2
-    //         })}
-    //       />
-    //     )}
-    //   </ChangingProgressProvider>
-    //       <p>{props.name}</p>
-    // </li>
 ) 
         }
 export default skill

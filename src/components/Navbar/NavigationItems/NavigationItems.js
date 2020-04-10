@@ -9,7 +9,7 @@ const navigationItems = (props) => (
         <Link to="/#Formation"><li className={style.NavigationItem}><a href='/'>Formation</a></li></Link>
         <Link to="/#Projet"><li className={style.NavigationItem}><a href='/'>Projet</a></li></Link>
         <Link to="/#Contact"><li className={style.NavigationItem}><a href='/'>Contact</a></li></Link>
-        </ul>
+    </ul>
 );
 
 export default navigationItems
