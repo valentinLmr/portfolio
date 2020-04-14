@@ -20,7 +20,7 @@ const sideDrawer = (props) => {
                 <div className={styles.Logo}><Logo/></div>
                 <nav>
                     <strong>
-                    <NavigationItems/>
+                    <NavigationItems clicked={props.closed}/>
                     </strong>
                 </nav>
             </div>
