@@ -12,22 +12,22 @@ class Projets extends Component {
             BUDGETY:{
                 img: budgety,
                 url: "https://budgtily.herokuapp.com/",
-                content:"Permet de gérer ton budgets mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses mensuels et check ton bugets mensuels afin d'optimiser tes économies"
+                content:"Permet de gérer ton budget mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses et check ton budget par mois afin d'optimiser tes économies"
             },
             FORKIFY:{
                 img: forkify,
                 url: "https://fork-ify.netlify.com/",
-                content:" Site de recette entièrement coder en Javascript ES6. Permet de trouver ses recettes parmis plus de mille d'après le Scrap d'une API. Selectionne, ajoute le nombre de personnes afin d'ajuster les proportions des ingredients"
+                content:" Site de recettes entièrement codé en Javascript ES6. Permet de trouver des recettes parmi plus de mille d'après le Scrap d'une API. Selectionne, ajuste le nombre de personnes afin d'adapter les proportions des ingredients"
             },
             SHAREMYPLAN:{
                 img: sharemyplan,
                 url: "https://share-my-plan.herokuapp.com/",
-                content:"solution de partage des abonnements afin de réduire le coût des services les plus demandé.(Netflix, Spotify, Canal+, Amazon Prime ..). RoR, HTML, CSS, JS, Ajax, Active Record"
+                content:"Solution de partage des abonnements afin de réduire le coût des services les plus demandés.(Netflix, Spotify, Canal+, Amazon Prime ..). RoR, HTML, CSS, JS, Ajax, Active Record"
             },
             MYPARK:{
                 img: mypark,
                 url: 'https://we-park.herokuapp.com/',
-                content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieur critères (Prix, Espace, Géocalisation)"
+                content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieurs critères (Prix, Espace, Géocalisation)"
             },
         }
     }

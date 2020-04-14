@@ -5,7 +5,7 @@ const contact = props => (
     <div className={style.ContactContainer} id="Contact">
         <h2><strong><u>CONTACT</u></strong></h2>
         <div className={style.Contact}>
-            <p>Vous souhaitez me contacter ? <br/>Appelez-moi au <strong>06.40.44.46.07</strong> ou envoyez moi un mail à <strong>valentinlmr28@gmail.com</strong></p>
+            <p>Contactez moi au <strong>06.40.44.46.07</strong> ou par mail à <strong>valentinlmr28@gmail.com</strong></p>
             <div className={style.ListReseau}>
                 <p>Vous pouvez également me retrouver sur les sites suivants !</p>
                 <div style={{display:'flex', justifyContent:'center'}}>

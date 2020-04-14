@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner';
 import Formation from './components/Formations/Formations';
 import Projet from './components/Projets/Projets';

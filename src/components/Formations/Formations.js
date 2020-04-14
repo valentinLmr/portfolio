@@ -17,7 +17,7 @@ class Formation extends Component {
                 year: 2017,
                 school: 'IUT Valenciennes',
                 place: 'Valenciennes',
-                description: "Découvrir l'environnement professionnel, Identifier et communiquer, traité l'information, agir sur les marchés, se professionnaliser, élargir ses compétences en gestion, développer ses performances commerciales, s'adapter aux évolutions, maitriser les outils de management et du marketing mix",
+                description: "Découvrir l'environnement professionnel, Identifier et communiquer, traiter l'information, agir sur les marchés, se professionnaliser, élargir ses compétences en gestion, développer ses performances commerciales, s'adapter aux évolutions, maitriser les outils de management et du marketing mixte",
                 actif: false
             },
             NCPIF:{
@@ -34,11 +34,11 @@ class Formation extends Component {
                 description: "9 semaines d'apprentissage intensif (Ruby On Rails, HTML5, CSS/Sass, Bootstrap, JavaScript, jQuery, SQL, PostgreSQL, MVC architecture, git, GitHub, and Heroku)",
                 actif: false
             },
-            Online:{
+            Autodidacte:{
                 year:2020,
                 place: null,
-                school: 'Udemy',
-                description: 'TODO',
+                school: 'Udemy, Openclassroom',
+                description: 'Formation à travers divers sites en ligne de facon autonome et travaille sur la création de projets. Je suis actuellement disponible pour toutes nouvelles missions',
                 actif: false,
             }
         }
@@ -105,7 +105,7 @@ class Formation extends Component {
                 key={formations}
                 className={styles.Description}>
                     
-                    <h3 style={{fontSize: '24px'}}><strong>{formation.name}</strong> - {formation.place}</h3>
+                <h3 style={{fontSize: '24px'}}><strong>{formation.name}</strong> - {formation.school} - {formation.place}</h3>
                     <p
                     style={{fontSize: '21px'}}>{formation.description}</p>
                 </div> 
@@ -131,6 +131,7 @@ class Formation extends Component {
                 </div>
                 <div className={styles.Pdf} >
                     <a href={pdf}><img src={pdfIcon} alt='pdf icon' /></a>
+                    <p>CV</p>
                 </div>
             </div>
 

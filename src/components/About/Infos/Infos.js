@@ -52,7 +52,7 @@ class Infos extends Component {
                 <div>
                     <img style={{width:'200px', height:'200px', borderRadius:'50%'}}src={profil} alt='profil'/>
                     <div style={{ width:'100%', height: 'auto', margin: '20px auto'}}>
-                        <p style={{fontSize: '21px', justifyContent:'center', color: 'rgb(29, 32, 41)'}}><strong><i>"Hey, je suis Valentin, passionnée de Développement d'App Web et mobile"</i></strong></p>
+                        <p style={{fontSize: '21px', justifyContent:'center', color: 'rgb(29, 32, 41)'}}><strong><i>"Hey, je suis Valentin, passionné de Développement d'Applications Web et Mobile"</i></strong></p>
                     </div>
                     <div className={styles.Infos}>
                         {infos}
