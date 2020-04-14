@@ -1,7 +1,6 @@
 
 .AboutContainer{
-    height: 100vh;
-    position: relative
+    height: auto;
 }
 
 .DivContainer{
@@ -9,10 +8,6 @@
 }
 
 @media (max-width: 700px) {
-    .AboutContainer{
-        height: auto
-    }
-
         
     .DivContainer{
         display: block;
