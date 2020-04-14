@@ -15,7 +15,7 @@ class Infos extends Component {
             investit:{
                 image: "fas fa-bolt"
             },
-            Professionel:{
+            Professionnel:{
                 image: "fas fa-briefcase"
             },
             Passionné:{
