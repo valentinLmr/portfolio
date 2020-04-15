@@ -9,8 +9,8 @@ const contact = props => (
             <div className={style.ListReseau}>
                 <p>Vous pouvez également me retrouver sur les sites suivants !</p>
                 <div style={{display:'flex', justifyContent:'center'}}>
-                    <i class="fab fa-github-square"></i>
-                    <i class="fab fa-linkedin"></i>
+                    <a href="https://github.com/valentinLmr"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/valentin-lemaire-1b080b153/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </div>

@@ -9,7 +9,6 @@ const sideDrawer = (props) => {
     let attachedClasses = [styles.SideDrawer, styles.Close];
  console.log(props.show)
     if (props.show) {
-        console.log(props.show)
         attachedClasses = [styles.SideDrawer, styles.Open]
     }
     return (
