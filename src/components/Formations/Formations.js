@@ -10,35 +10,34 @@ class Formation extends Component {
                 school: 'Charlotte Perriand',
                 place: 'Genech',
                 actif: true,
-                description: "Le bac ES est un bac pluridisciplinaire qui donne un profil équilibré, polyvalent, compétent dans tous les domaines : français, maths, langues, histoire, philo, droit, éco... Le baccalauréat économique et social implique une attention particulière à l'environnement socio-économique et à l'actualité qui vous entoure... comprendre et analyser les rouages économiques et sociaux du pays (monnaie, syndicats, organisations, l'emploi, la bourse...). Aussi il ouvre vers l'histoire et la géographie, les mathématiques, les langues. L'objectif du Bac ES est d'approfondir une culture économique fondée sur l'esprit de synthèse, la curiosité.Il s'agit d'être au top dans l'ensemble des matières.",
-                
+                description: "Le bac ES est un bac pluridisciplinaire qui m'a apporté de beaucoup de compétences:  Rédactionnelles grâce à l'histoire et la géographie, Logiques grâce aux  mathématiques, Linguistiques grâce aux langues mais également  une ouverture d’esprit sur notre époque et des connaissances sur le monde économique car il porte une attention particulière à l'environnement socio-économique et à l'actualité.",
             },
             DutTC:{
                 year: 2017,
                 school: 'IUT Valenciennes',
                 place: 'Valenciennes',
-                description: "Découvrir l'environnement professionnel, Identifier et communiquer, traiter l'information, agir sur les marchés, se professionnaliser, élargir ses compétences en gestion, développer ses performances commerciales, s'adapter aux évolutions, maitriser les outils de management et du marketing mixte",
+                description: "Dîplome universitaire des techniques de commercialisations réalisé en alternance. Ces deux années m'ont permis d'approfondir et de développer les compétences acquises lors de mon Bac Economique et Social comme l'ouverture d'esprit grâce à l'introduction du Droit, de la Communication et du Marketing, Rédactionnelles avec des dissertations plus poussées sur notre monde et ses rouages économiques, Logiques grâce à l'algorythmie des mathématiques et de la comptabilité, Sociales et modulables grâce à l'intégration au monde du travail",  
                 actif: false
             },
             NCPIF:{
                 year: 2018,
                 place: 'Lille',
                 school: 'EFAB',
-                description: "Recherche et évaluation de biens immobiliers d’habitation et d’entreprise, Négociation et conclusion de mandats de vente, de location ou de recherche, Recherche et présentation d’acquéreurs / locataires (particuliers et professionnels), Cerner les besoins et attentes des clients acquéreurs et locataires, conseil en financement immobilier : capacité de financements et types de prêts, conseil en investissement immobilier : rentabilité et sécurisation de l’achat, conseil en investissement financier : actions, obligations, assurance vie, SCPI… Présentation, argumentation et vente du bien, conclusion de la vente ou de la mise en location de tous types d’immeubles",
+                description: "Licence Négociation Conseil en Patrimoine Immobilier et Financier en alternance. L'adaptabilité, la sociabilité et l'organisation ont pris tout leur sens lors de cette 3ème années d'étude supérieure grâce notamment au coté relationnel qui s'est développé et à l' autonomie du metier d'agent immobilier avec les responsibilités relationnelles, professionnelles et personnelles que cela implique.",
                 actif: false
             },
             LeWagon:{
                 year: 2019,
                 place: 'Lille',
                 school: 'EuraTechnologie',
-                description: "9 semaines d'apprentissage intensif (Ruby On Rails, HTML5, CSS/Sass, Bootstrap, JavaScript, jQuery, SQL, PostgreSQL, MVC architecture, git, GitHub, and Heroku)",
+                description: "Mes années d'études commerciales et mes voyages, dont un an en Australie, m'ont permis de me rendre compte de la place du web dans le monde actuel et à quel point il était important pour moi d'en faire partie. J' ai donc décidé d'intégrer une formation de 9 semaines d'apprentissage intensif qui m'a permis de développer ma facon de penser au monde de la programmation et de l'informatique, m'apportant des compétences de raisonnement, d'analyse, de compréhension, de recherche, d'abstraction et de conception.  ",
                 actif: false
             },
             Autodidacte:{
                 year:2020,
                 place: null,
                 school: 'Udemy, Openclassroom',
-                description: 'Formation à travers divers sites en ligne de facon autonome et travaille sur la création de projets. Je suis actuellement disponible pour toutes nouvelles missions',
+                description: 'Formation à travers divers sites en ligne de façon autonome tout en travaillant sur la création de projets. Je suis actuellement disponible pour toutes nouvelles missions',
                 actif: false,
             }
         }
