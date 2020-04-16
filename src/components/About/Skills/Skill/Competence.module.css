@@ -47,15 +47,15 @@
 
 @media (max-width: 480px) {
     .NameComp{
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .NameComp p {
-        margin: 11px;
+        margin: 0px;
     }
 
     .RestPercentage p {
-        font-size: 6px;
+        font-size: 11px;
     }
 
 }
