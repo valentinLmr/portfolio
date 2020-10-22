@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
-import style from './Projets.module.css'
-import budgety from '../../assets/Images/Budgety.png'
-import forkify from '../../assets/Images/Forkify.png'
-import mypark from '../../assets/Images/Mypark.png'
-import sharemyplan from '../../assets/Images/Sharemyplan.png'
+import React, { Component } from 'react';
+import style from './Projets.module.css';
+import budgety from '../../assets/Images/Budgety.png';
+import forkify from '../../assets/Images/Forkify.png';
+import mypark from '../../assets/Images/Mypark.png';
+import sharemyplan from '../../assets/Images/Sharemyplan.png';
+import Tzantza from '../../assets/Images/Tzantza.png';
+import BurgerBuilder from '../../assets/Images/BurgerBuilder.png'
 import Project from './Projet/Projet';
 class Projets extends Component {
 
@@ -28,6 +30,16 @@ class Projets extends Component {
                 img: mypark,
                 url: 'https://we-park.herokuapp.com/',
                 content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieurs critères (Prix, Espace, Géocalisation)"
+            },
+            BURGERBUILDER:{
+                img: BurgerBuilder,
+                url: 'https://burger-builder-command.netlify.app/',
+                content:" Composition personnalisé d'Hamburger (React, Redux, Hook, JS, HTML, CSS)"
+            },
+            Tzantza:{
+                img: Tzantza,
+                url: 'https://tzantza.netlify.app/',
+                content:" Réalisation professionnelle d'un site vitrine pour un restaurant (React, Javascript, HTML, CSS) "
             },
         }
     }
