@@ -114,6 +114,7 @@ class Projets extends Component {
             </div>)
            } else {
                return(<div className='project_box'>
+                   
                <Project 
             key={project.name}
             name={project.name}
