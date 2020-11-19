@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react'
 import './Projets.css'
 import budgety from '../../assets/Images/Budgety.png'
@@ -8,6 +9,16 @@ import BurgerBuilder from '../../assets/Images/BurgerBuilder.png'
 import Amazona from '../../assets/Images/Amazona.png'
 import tzantza from '../../assets/Images/Tzantza.png'
 
+=======
+import React, { Component } from 'react';
+import style from './Projets.module.css';
+import budgety from '../../assets/Images/Budgety.png';
+import forkify from '../../assets/Images/Forkify.png';
+import mypark from '../../assets/Images/Mypark.png';
+import sharemyplan from '../../assets/Images/Sharemyplan.png';
+import Tzantza from '../../assets/Images/Tzantza.png';
+import BurgerBuilder from '../../assets/Images/BurgerBuilder.png'
+>>>>>>> 8475e045202339343544d78eba110980dfc020aa
 import Project from './Projet/Projet';
 class Projets extends Component {
 
@@ -33,6 +44,7 @@ class Projets extends Component {
                 url: 'https://we-park.herokuapp.com/',
                 content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieurs critères (Prix, Espace, Géocalisation)"
             },
+<<<<<<< HEAD
             TZANTZA:{
                 img:tzantza,
                 url:"https://tzantza.netlify.app/",
@@ -51,6 +63,18 @@ class Projets extends Component {
                 content: 'lorem ipsum',
 
             }
+=======
+            BURGERBUILDER:{
+                img: BurgerBuilder,
+                url: 'https://burger-builder-command.netlify.app/',
+                content:" Composition personnalisé d'Hamburger (React, Redux, Hook, JS, HTML, CSS)"
+            },
+            Tzantza:{
+                img: Tzantza,
+                url: 'https://tzantza.netlify.app/',
+                content:" Réalisation professionnelle d'un site vitrine pour un restaurant (React, Javascript, HTML, CSS) "
+            },
+>>>>>>> 8475e045202339343544d78eba110980dfc020aa
         }
     }
     render() {
