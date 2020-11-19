@@ -13,7 +13,7 @@ const skill = props => {
     const percentage = props.percentage - 15 ;
     return (
 
-
+        <div style={{width: '100%'}}>
           <div className={style.ContainerComp}>
               <div className={style.NameComp}>
                   <p>{props.name}</p>
@@ -26,6 +26,7 @@ const skill = props => {
               </div>
       
           </div>
+        </div>
 ) 
         }
 export default skill
