@@ -1,0 +1,37 @@
+.ProjetsContainers {
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.project_box {
+  display: flex;
+  flex: auto;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.project_description {
+  width: 45%;
+  margin: auto;
+}
+
+.Projets {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@media (max-width: 700px) {
+  .Projets {
+    display: block;
+    width: 100%;
+  }
+}

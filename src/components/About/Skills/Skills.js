@@ -60,9 +60,11 @@ class Skills extends Component{
             
         return (
             <div className={style.SkillComponent}>
+                <div>
                 <ul className={style.SkillList}>
                     {skills}
                 </ul>
+                </div>
             </div>
 
         )
