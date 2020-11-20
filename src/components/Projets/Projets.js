@@ -82,7 +82,7 @@ class Projets extends Component {
         const project = 
             
         projectsArray.map((project, index) => {
-           if (index % 2 == 0) {
+           if (index % 2 === 0) {
                return(
             <div className="project_box">
                 <div className="project_description">

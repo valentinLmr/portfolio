@@ -60,7 +60,7 @@ class Infos extends Component {
                             </h1>
                         </div>
                         <div >
-                            <h1 className="emoji_hello">🤙</h1>
+                            <h1 className="emoji_hello"><span role='img' aria-label='emoji surf'>🤙</span></h1>
                         </div>
                     </div>
                     <div>
