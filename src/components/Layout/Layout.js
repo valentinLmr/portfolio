@@ -3,6 +3,7 @@ import styles from './Layout.module.css'
 import Navbar from '../Navbar/Navbar'
 import SideDrawer from '../Navbar/SideDrawer/SideDrawer'
 
+
 class Layout extends Component {
 
     state = {
@@ -20,7 +21,8 @@ class Layout extends Component {
 
     render () {
         return (
-        <div>
+        <div className='layout'>
+        
             <Navbar 
                 clicked={this.sideDrawerOpen}/> 
             <SideDrawer

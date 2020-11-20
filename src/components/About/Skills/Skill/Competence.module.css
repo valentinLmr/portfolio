@@ -1,61 +1,69 @@
-.ContainerComp{
+@keyframes containerComp {
+  from {
+    width: 30%;
+  }
+  to {
     width: 90%;
-    height: 35px;
-    background-color: lightgrey;
-    display: flex;
-    margin: 10px 0 ;
-    color: white;
+  }
 }
 
-.NameComp{
-    width: 15%;
-    height: 100%;
-    background-color: #BF0350;
-    text-align: center;
-    padding: 6px;
+.ContainerComp {
+  width: 90%;
+  height: 35px;
+  background-color: lightgrey;
+  display: flex;
+  margin: 10px 0;
+  color: white;
+  animation-name: containerComp;
+  animation-duration: 3s;
 }
 
-.PercentageComp{
-    height: 100%;
-    background-color:   #DB1967;
-    text-align: center;
-
+.NameComp {
+  width: 15%;
+  height: 100%;
+  background-color: #bf0350;
+  text-align: center;
+  padding: 6px;
 }
 
-.RestPercentage{
-    width: auto;
-    height: 100%;
-    background-color: lightgrey;
-    text-align: end;
-    padding: 8px;
+.PercentageComp {
+  height: 100%;
+  background-color: #db1967;
+  text-align: center;
+}
+
+.RestPercentage {
+  width: auto;
+  height: 100%;
+  background-color: lightgrey;
+  text-align: end;
+  padding: 8px;
 }
 
 .RestPercentage p {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 @media (max-width: 700px) {
-    .NameComp{
-        font-size: 12px;
-    }
+  .NameComp {
+    font-size: 12px;
+  }
 
-    .NameComp p {
-        margin: 11px;
-    }
-
+  .NameComp p {
+    margin: 11px;
+  }
 }
 
 @media (max-width: 480px) {
-    .NameComp{
-        font-size: 11px;
-    }
+  .NameComp {
+    font-size: 11px;
+  }
 
-    .NameComp p {
-        margin: 0px;
-    }
+  .NameComp p {
+    margin: 0px;
+  }
 
-    .RestPercentage p {
-        font-size: 11px;
-    }
-
+  .RestPercentage p {
+    font-size: 11px;
+  }
 }

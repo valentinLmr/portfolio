@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import styles from './Infos.module.css';
-import profil from '../../../assets/Images/valou.jpg';
+import './infos.css';
+import profil from '../../../assets/Images/profilPic.jpg';
 import Info from './Info/Info'
 
 class Infos extends Component {
@@ -48,13 +48,25 @@ class Infos extends Component {
            )
         })
         return (
-            <div className={styles.InfosContainer}>
-                <div>
-                    <img style={{width:'200px', height:'200px', borderRadius:'50%'}}src={profil} alt='profil'/>
-                    <div style={{ width:'100%', height: 'auto', margin: '20px auto'}}>
-                        <p style={{fontSize: '21px', justifyContent:'center', color: 'rgb(29, 32, 41)'}}><strong><i>"Valentin Lemaire, passionné de Développement d'Applications Web et Mobile"</i></strong></p>
+            <div className="InfosContainer">
+                <div className='infosBox'>
+                    <div>
+                        <h1>Hello Everybody</h1>
+                    </div>                   
+                     <div className='profil'>
+                        <div>
+                            <h1>
+                            <img className="profil_pic"src={profil} alt='profil'/>
+                            </h1>
+                        </div>
+                        <div >
+                            <h1 className="emoji_hello"><span role='img' aria-label='emoji surf'>🤙</span></h1>
+                        </div>
                     </div>
-                    <div className={styles.Infos}>
+                    <div>
+                        <p className='text_profil'><strong><i>Hello, je suis Valentin Lemaire, Developpeur Web passionné et chevronné près à réaliser vos projets les plus fous"</i></strong></p>
+                    </div>
+                    <div className="Infos">
                         {infos}
                     </div>
                 </div>

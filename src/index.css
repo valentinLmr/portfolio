@@ -1,14 +1,30 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  color: white;
+}
+.layout > div {
+  z-index: 2;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+.main {
+  z-index: 2;
+  background-color: ;
+}
+.tsparticles-canvas-el {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-color: #1b1e29;
 }
