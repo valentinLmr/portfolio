@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { Component } from 'react'
 import './Projets.css'
 import budgety from '../../assets/Images/Budgety.png'
@@ -8,17 +8,6 @@ import sharemyplan from '../../assets/Images/Sharemyplan.png'
 import BurgerBuilder from '../../assets/Images/BurgerBuilder.png'
 import Amazona from '../../assets/Images/Amazona.png'
 import tzantza from '../../assets/Images/Tzantza.png'
-
-=======
-import React, { Component } from 'react';
-import style from './Projets.module.css';
-import budgety from '../../assets/Images/Budgety.png';
-import forkify from '../../assets/Images/Forkify.png';
-import mypark from '../../assets/Images/Mypark.png';
-import sharemyplan from '../../assets/Images/Sharemyplan.png';
-import Tzantza from '../../assets/Images/Tzantza.png';
-import BurgerBuilder from '../../assets/Images/BurgerBuilder.png'
->>>>>>> 8475e045202339343544d78eba110980dfc020aa
 import Project from './Projet/Projet';
 class Projets extends Component {
 
@@ -27,54 +16,49 @@ class Projets extends Component {
             BUDGETY:{
                 img: budgety,
                 url: "https://budgtily.herokuapp.com/",
-                content:"Permet de gérer ton budget mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses et check ton budget par mois afin d'optimiser tes économies"
+                content:"Permet de gérer ton budget mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses et check ton budget par mois afin d'optimiser tes économies. ",
+                description:" Réalisé dans le cadre d'un cour JavaScript, ce site m'à permis de développer mes connaissances en programmation et  d'apprendre les fondamentales de cette Technologies. Système MVC, Methode de Class, itération, loops .... "
             },
             FORKIFY:{
                 img: forkify,
                 url: "https://fork-ify.netlify.com/",
-                content:" Site de recettes entièrement codé en Javascript ES6. Permet de trouver des recettes parmi plus de mille d'après le Scrap d'une API. Selectionne, ajuste le nombre de personnes afin d'adapter les proportions des ingredients"
+                content:" Permet de trouver des recettes parmi plus de mille d'après le Scrap d'une API. Selectionne, ajuste le nombre de personnes afin d'adapter les proportions des ingredients",
+                description:"Deuxième site réalisé en  JavaScript, cette application m'à permis  de renforcer mes compétences acquisent  lors de mon premier site internet. Mise en place de class afin de traiter les données, Scrapping le but d'alimenté un base de donée, Méthode'MVC' afin de gerer la corrélation Front-End && Back-End etc ... "
             },
             SHAREMYPLAN:{
                 img: sharemyplan,
                 url: "https://share-my-plan.herokuapp.com/",
-                content:"Solution de partage des abonnements afin de réduire le coût des services les plus demandés.(Netflix, Spotify, Canal+, Amazon Prime ..). RoR, HTML, CSS, JS, Ajax, Active Record"
+                content:"Solution de partage des abonnements afin de réduire le coût des services les plus demandés.",
+                description:"Deuxième Réalisation from Scratch pour le fin de BootCamp 'Le Wagon', ce site réalisé en 2 semaines en groupe de 4 ce site, issue de l'idée d'un ami à du être pensée d'en son ensemble. Création d'une maquette, d'une Base de donées SQL, d'un système MVCà travers la framework Rails, utilisation d'Ajax,  Implementation de divers GEM (pundit, stripe, Fbconnect...) et feature afin d'améliorer l'expérience utilisateur et la sécurité du site. Ce site complet regroupant des compétences Fullstack nous à permis de développer nos compétences à un niveaux supérieur",
             },
             MYPARK:{
                 img: mypark,
                 url: 'https://we-park.herokuapp.com/',
-                content:" De loueur à locataire notre application permet de trouver une place dans les grandes metropoles francaises selon plusieurs critères (Prix, Espace, Géocalisation)"
+                content:" Location de place de parking",
+                description:"première Réalisation from Scratch pour le fin de BootCamp 'Le Wagon', ce site réalisé en 1 semaines en groupe de 4, qui est une réplique du site 'AirBnb' m'à permis de mettre en application les enseignements et pratiques acquient durant la formation. Mise de place d'une Base de donées SQL, système MVCà travers la framework Rails, filtrage  selon plusieur critère (Prix, Espace, Géocalisation ...), Implementation de divers GEM (pundit, stripe, GeoCode ...) et feature afin d'améliorer l'expérience utilisateur et la sécurité du site utilisation de GitHub en groupe afin de répartir les taches"
+
             },
-<<<<<<< HEAD
             TZANTZA:{
                 img:tzantza,
                 url:"https://tzantza.netlify.app/",
-                content:'lorem ipsum',
+                content:'Site Vitrine pour une restaurant Basé à Paris',
+                description:"Premier projet professionnel réalisé avec des technologies Front-end. HTML, CSS et JS. Prise de connaissance du projet, mise en place d'un devis, contact régulier avec le client afin de valider l'implementation des features... (Dans l'attente de la fin du confinement afin d'implementer le Script Zenchef et joindre la réalisation à la référence du restaurant) "
 
             },
             BURGERBUILDER:{
                 img:BurgerBuilder,
                 url:"https://burger-builder-command.netlify.app/",
-                content: 'lorem ipsum',
+                content: 'application pour Construire ton Hamburger',
+                description: "Réalisation d'une première application utilisant le framework React. Mise en place d'une Base de donnée 'FireBase', d'un espace client,  utilisation des fondamentaux de React puis implémentation de Redux afin d'améliorer l'application, utilisation du LocalStorage afin de sauvegarder des données."
 
             },
             AMAZONA:{
                 img:Amazona,
                 url:"https://proxyshopping.herokuapp.com/",
-                content: 'lorem ipsum',
+                content: 'Site e-commerce dans le but de vendre des produits textile',
+                description: "Dernière réalisation en utilisant les Technologie React, Redux, Hooks et Node.js. Création d'une Api afin de gérer une base de donées Mongo, création d'un espace client avec la possibilité de filtrer les produits, faire un panier, acheter et verifier l'avancement de la livraison; d'un espace Administrateur avec la création, modification ou suppression de produit, Prise en charge des commandes. Implementation de plusieurs features afin d'avoir accès à un site complet et fonctionnel"
 
             }
-=======
-            BURGERBUILDER:{
-                img: BurgerBuilder,
-                url: 'https://burger-builder-command.netlify.app/',
-                content:" Composition personnalisé d'Hamburger (React, Redux, Hook, JS, HTML, CSS)"
-            },
-            Tzantza:{
-                img: Tzantza,
-                url: 'https://tzantza.netlify.app/',
-                content:" Réalisation professionnelle d'un site vitrine pour un restaurant (React, Javascript, HTML, CSS) "
-            },
->>>>>>> 8475e045202339343544d78eba110980dfc020aa
         }
     }
     render() {
@@ -90,7 +74,8 @@ class Projets extends Component {
                 name: key,
                 image: this.state.projects[key].img,
                 url: this.state.projects[key].url,
-                content: this.state.projects[key].content
+                content: this.state.projects[key].content,
+                descritpion: this.state.projects[key].description
             })
         }
 
@@ -102,7 +87,7 @@ class Projets extends Component {
             <div className="project_box">
                 <div className="project_description">
                 <p>
-                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+                    {project.descritpion}
                 </p>
                  </div>
             <Project 
@@ -122,7 +107,7 @@ class Projets extends Component {
             content={project.content}/>
             <div className='project_description'>
                 <p>
-                Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+                    {project.descritpion}               
                 </p>
             </div>
             
@@ -135,7 +120,7 @@ class Projets extends Component {
 
             <div className='ProjetsContainers' id="Projet">
                 <div style={{margin: '9vh 0'}}>
-                    <h2 style={{fontSize:'50px'}}><strong><u>PROJETS</u></strong></h2>
+                    <h2 style={{fontSize:'50px'}}><u>PROJETS</u></h2>
                     <p style={{fontSize:'12px'}}><i>Cliquez pour visiter</i></p>
                 </div>
                 
