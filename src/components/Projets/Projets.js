@@ -11,31 +11,32 @@ import tzantza from '../../assets/Images/Tzantza.png'
 import Project from './Projet/Projet';
 class Projets extends Component {
 
+    
     state = {
         projects:{
             BUDGETY:{
                 img: budgety,
                 url: "https://budgtily.herokuapp.com/",
                 content:"Permet de gérer ton budget mensuel de facon intuitive. Ajoute tes revenus ou tes dépenses et check ton budget par mois afin d'optimiser tes économies. ",
-                description:" Réalisé dans le cadre d'un cour JavaScript, ce site m'à permis de développer mes connaissances en programmation et  d'apprendre les fondamentales de cette Technologies. Système MVC, Methode de Class, itération, loops .... "
+                description:" Réalisé dans le cadre d'un cour JavaScript, ce site m'a permis de développer mes connaissances en programmation et d'appronfondir les fondamentaux de cette Technologies. Système MVC, Methode de Class, itération, loops, Async .... "
             },
             FORKIFY:{
                 img: forkify,
                 url: "https://fork-ify.netlify.com/",
                 content:" Permet de trouver des recettes parmi plus de mille d'après le Scrap d'une API. Selectionne, ajuste le nombre de personnes afin d'adapter les proportions des ingredients",
-                description:"Deuxième site réalisé en  JavaScript, cette application m'à permis  de renforcer mes compétences acquisent  lors de mon premier site internet. Mise en place de class afin de traiter les données, Scrapping le but d'alimenté un base de donée, Méthode'MVC' afin de gerer la corrélation Front-End && Back-End etc ... "
+                description:"Deuxième site réalisé en  JavaScript, cette application m'a permis  de consolider mes compétences acquisent  lors de mon premier site JavaScript. Mise en place de class, Methode Contructor, utisation de State afin de traiter les données, Scrapping pour alimenté la BD, Méthode'MVC' afin de gerer la corrélation Front-End && Back-End  ... "
             },
             SHAREMYPLAN:{
                 img: sharemyplan,
                 url: "https://share-my-plan.herokuapp.com/",
                 content:"Solution de partage des abonnements afin de réduire le coût des services les plus demandés.",
-                description:"Deuxième Réalisation from Scratch pour le fin de BootCamp 'Le Wagon', ce site réalisé en 2 semaines en groupe de 4 ce site, issue de l'idée d'un ami à du être pensée d'en son ensemble. Création d'une maquette, d'une Base de donées SQL, d'un système MVCà travers la framework Rails, utilisation d'Ajax,  Implementation de divers GEM (pundit, stripe, Fbconnect...) et feature afin d'améliorer l'expérience utilisateur et la sécurité du site. Ce site complet regroupant des compétences Fullstack nous à permis de développer nos compétences à un niveaux supérieur",
+                description:"Deuxième Réalisation from Scratch pour le fin de BootCamp 'Le Wagon'. Ce site réalisé en 2 semaines en groupe de 4 est issue de l'idée d'un ami. Pensé dans son ensemble, la création d'une maquette via Figma et d'une base de donnée via un Kit du 'Wagon' a été nécessaire. Implementation d'un système MVC à travers la framework Rails, utilisation d'Ajax,  utilisations de divers GEM (pundit, stripe, Fbconnect...) et feature afin d'améliorer l'expérience utilisateur et la sécurité du site. Ce site complet utilisant nos compétences Fullstack nous à permis de développer nos compétences à un niveaux supérieur",
             },
             MYPARK:{
                 img: mypark,
                 url: 'https://we-park.herokuapp.com/',
                 content:" Location de place de parking",
-                description:"première Réalisation from Scratch pour le fin de BootCamp 'Le Wagon', ce site réalisé en 1 semaines en groupe de 4, qui est une réplique du site 'AirBnb' m'à permis de mettre en application les enseignements et pratiques acquient durant la formation. Mise de place d'une Base de donées SQL, système MVCà travers la framework Rails, filtrage  selon plusieur critère (Prix, Espace, Géocalisation ...), Implementation de divers GEM (pundit, stripe, GeoCode ...) et feature afin d'améliorer l'expérience utilisateur et la sécurité du site utilisation de GitHub en groupe afin de répartir les taches"
+                description:"première Réalisation from Scratch pour le fin de BootCamp 'Le Wagon'. Ce site réalisé en 1 semaines en groupe de 4 est une réplique du service 'AirBnb'(location de place de Parking), nous a permis de mettre en application les enseignements et pratiques acquérient durant la formation. Mise de place d'une Base de donées SQL, système MVC à travers la framework Rails, filtrage selon plusieur critère (Prix, Espace, Géocalisation ...), Implementation de divers GEM (pundit, stripe, GeoCode ...) et features afin d'améliorer l'expérience utilisateur et la sécurité du site. Utilisation de GitHub en groupe afin de répartir les tâches"
 
             },
             TZANTZA:{
@@ -61,7 +62,12 @@ class Projets extends Component {
             }
         }
     }
+
+
+
     render() {
+
+        
 
         const projectsArray = []
 
@@ -78,13 +84,13 @@ class Projets extends Component {
                 descritpion: this.state.projects[key].description
             })
         }
+  
+  
 
-        const project = 
-            
-        projectsArray.map((project, index) => {
+        const project = projectsArray.map((project, index) => {
            if (index % 2 === 0) {
                return(
-            <div className="project_box">
+            <div className="project_box even">
                 <div className="project_description">
                 <p>
                     {project.descritpion}
@@ -115,15 +121,17 @@ class Projets extends Component {
            }
            
         })
+       window.addEventListener('resize', console.log(window.outerWidth))
 
         return(
 
             <div className='ProjetsContainers' id="Projet">
                 <div style={{margin: '9vh 0'}}>
+                    
                     <h2 style={{fontSize:'50px'}}><u>PROJETS</u></h2>
                     <p style={{fontSize:'12px'}}><i>Cliquez pour visiter</i></p>
                 </div>
-                
+            
                 <div className='Projets'>
                     {project}
                 </div>

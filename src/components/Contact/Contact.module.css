@@ -41,8 +41,7 @@
 }
 
 .social_network {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 @media (max-width: 900px) {

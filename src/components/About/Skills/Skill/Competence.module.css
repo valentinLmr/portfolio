@@ -12,7 +12,7 @@
   height: 35px;
   background-color: lightgrey;
   display: flex;
-  margin: 10px 0;
+  margin: 10px auto;
   color: white;
   animation-name: containerComp;
   animation-duration: 3s;
