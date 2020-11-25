@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import style from './Contact.module.css'
 
 const contact = props => (
@@ -9,8 +10,8 @@ const contact = props => (
             <div className={style.ListReseau}>
                 <p>Vous pouvez également me retrouver sur les sites suivants !</p>
                 <div className='social_network'>
-                    <a href="https://github.com/valentinLmr"><i class="fab fa-github-square"></i></a>
-                    <a href="https://www.linkedin.com/in/valentin-lemaire-1b080b153/"><i class="fab fa-linkedin"></i></a>
+                    <Link to="https://github.com/valentinLmr"><i class="fab fa-github-square"></i></Link>
+                    <Link to="https://www.linkedin.com/in/valentin-lemaire-1b080b153/"><i class="fab fa-linkedin"></i></Link>
                 </div>
             </div>
         </div>
