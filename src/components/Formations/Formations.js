@@ -54,7 +54,6 @@ class Formation extends Component {
         for(let key in formationData){
              formationData[key].actif = formationData[key].actif ? false : formationData[key].actif
         };
-        console.log(formationData)
  
         const updatedElement = {
             ...formationData[key]

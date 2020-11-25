@@ -58,7 +58,6 @@ class Projets extends Component {
                 url:"https://proxyshopping.herokuapp.com/",
                 content: 'Site e-commerce dans le but de vendre des produits textile',
                 description: "Dernière réalisation en utilisant les Technologies React, Redux, Hooks et Node.js. Création d'une Api afin de gérer une base de données Mongo, création d'un espace client avec la possibilité de filtrer les produits, faire un panier, acheter et vérifier l'avancement de la livraison, d'un espace administrateur avec la création, modification ou suppression de produit, prise en charge des commandes. Implémentation de plusieurs features afin d'avoir accès à un site complet et fonctionnel"
-
             }
         }
     }
@@ -90,27 +89,32 @@ class Projets extends Component {
         const project = projectsArray.map((project, index) => {
            if (index % 2 === 0) {
                return(
-            <div className="project_box even">
+            <div className="project_box even" key={project.name}>
                 <div className="project_description">
                 <p>
                     {project.descritpion}
                 </p>
                  </div>
-            <Project 
-            key={project.name}
-            name={project.name}
-            image={project.image}
-            url={project.url}
-            content={project.content}/>
+                 <a href={project.url} className='link_project'>
+                    <Project 
+                    key={project.name}
+                    name={project.name}
+                    image={project.image}
+                    url={project.url}
+                    content={project.content}/>
+                </a>
             </div>)
            } else {
-               return(<div className='project_box'>
-               <Project 
-            key={project.name}
-            name={project.name}
-            image={project.image}
-            url={project.url}
-            content={project.content}/>
+               return(
+               <div className='project_box' key={project.name}>
+                <a href={project.url} className='link_project'>
+                    <Project 
+                    key={project.name}
+                    name={project.name}
+                    image={project.image}
+                    url={project.url}
+                    content={project.content}/>
+                </a>
             <div className='project_description'>
                 <p>
                     {project.descritpion}               
@@ -121,7 +125,6 @@ class Projets extends Component {
            }
            
         })
-       window.addEventListener('resize', console.log(window.outerWidth))
 
         return(
 
