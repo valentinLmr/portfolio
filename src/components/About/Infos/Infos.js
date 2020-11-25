@@ -51,7 +51,7 @@ class Infos extends Component {
             <div className="InfosContainer">
                 <div className='infosBox'>
                     <div>
-                        <h1>Hello Everybody</h1>
+                        <h1>Greetings Fellas</h1>
                     </div>                   
                      <div className='profil'>
                         <div>
@@ -64,7 +64,7 @@ class Infos extends Component {
                         </div>
                     </div>
                     <div>
-                        <p className='text_profil'><strong><i>Hello, je suis Valentin Lemaire, Developpeur Web passionné et chevronné près à réaliser vos projets les plus fous"</i></strong></p>
+                        <p className='text_profil'><strong><i> Je suis Valentin Lemaire, Developpeur Web passionné et chevronné prêt à réaliser tous vos projets les plus fous"</i></strong></p>
                     </div>
                     <div className="Infos">
                         {infos}

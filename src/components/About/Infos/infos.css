@@ -48,7 +48,8 @@
 
 .text_profil {
   font-size: 16px;
-  justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
 .emoji_hello {

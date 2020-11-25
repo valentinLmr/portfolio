@@ -31,6 +31,19 @@
 }
 
 @media (max-width: 700px) {
+  .project_description {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .project_box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .even {
+    flex-direction: column-reverse;
+  }
   .Projets {
     display: block;
     width: 100%;
