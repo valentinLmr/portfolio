@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Formation.css';
 import pdf from '../../assets/Images/CVDev.pdf';
 import pdfIcon from '../../assets/Images/pdfIcon.png';
+import { Link } from 'react-router-dom';
 class Formation extends Component {
     state = {
         formations:{
